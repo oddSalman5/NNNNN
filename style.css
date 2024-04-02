@@ -1,0 +1,45 @@
+body {
+  padding: 50px;
+  background-image: url('j.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 50px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  background-color: rgba(255, 255, 255, 0.8);
+  position: relative; /* Added for button positioning */
+}
+
+.form-group {
+  margin-bottom: 30px;
+}
+
+/* Changing the color of all buttons to pink with a gradient effect */
+button {
+  background: linear-gradient(to right, #ff5858, #f857a6);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 50px; /* Making buttons round */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adding a shadow effect */
+  transition: all 0.3s ease; /* Smooth transition on hover */
+}
+
+button:hover {
+  transform: translateY(-2px); /* Lift the button slightly on hover */
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
+}
+
+/* Adjusting position of buttons */
+.button-container {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+
